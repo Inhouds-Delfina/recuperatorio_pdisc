@@ -14,7 +14,16 @@
   }
 
   body {
-
-    align-items: center;
-    font-family: 'VCR OSD Mono', 'Century Gothic', Arial;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 1px white;
+    background: linear-gradient(to bottom, #d30c0c, #000000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'VCR OSD Mono', 'Century Gothic', Arial, Helvetica, sans-serif;
   }
+  
