@@ -23,6 +23,7 @@
   img {
     width: 50%;
     height: 103px;
+    place-items: center;
   }
 
   a {
